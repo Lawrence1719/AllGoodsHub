@@ -1,0 +1,21 @@
+{
+  "name": "allgoodshub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "concurrently": "^9.0.0",
+    "eslint": "^9.10.0",
+    "eslint-plugin-react": "^7.35.2",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.4.0"
+  }
+}

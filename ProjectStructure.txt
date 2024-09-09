@@ -1,0 +1,65 @@
+allgoodshub/
+├── admin/                     # Admin panel for managing e-commerce platform
+│   ├── public/                # Public assets (favicon, logos, etc.)
+│   ├── src/
+│   │   ├── assets/            # Images, logos, and other static assets
+│   │   ├── components/        # Reusable UI components (tables, forms, etc.)
+│   │   ├── pages/             # Page components (Dashboard, Products, Orders)
+│   │   ├── services/          # API services (e.g., productService, orderService)
+│   │   ├── context/           # Admin-specific global state management (AuthContext)
+│   │   ├── styles/            # Tailwind and custom styles
+│   │   ├── App.tsx            # Main admin app component
+│   │   ├── index.tsx          # Admin app entry point
+│   │   └── router.tsx         # Admin page routing
+│   ├── tailwind.config.js     # Tailwind configuration for admin
+│   ├── package.json           # Admin-specific dependencies and scripts
+│   ├── tsconfig.json          # TypeScript configuration
+│   └── node_modules/          # Node.js dependencies for admin
+│
+├── backend/                   # Backend API (Node.js + PostgreSQL)
+│   ├── src/
+│   │   ├── config/            # Database configuration, environment variables
+│   │   ├── controllers/       # Handle API requests
+│   │   ├── models/            # Database models (e.g., productModel.ts, userModel.ts)
+│   │   ├── routes/            # Define API routes (e.g., productRoutes.ts, userRoutes.ts)
+│   │   ├── middleware/        # Authentication, logging, and other middleware
+│   │   ├── services/          # Business logic (e.g., handling orders, users)
+│   │   ├── utils/             # Helper functions (e.g., token generation, input validation)
+│   │   ├── app.ts             # Main Express application setup
+│   │   └── server.ts          # Server configuration and startup
+│   ├── .env                   # Environment variables for the backend
+│   ├── package.json           # Backend-specific dependencies and scripts
+│   ├── tsconfig.json          # TypeScript configuration
+│   ├── nodemon.json           # Nodemon configuration for development (optional)
+│   └── node_modules/          # Node.js dependencies for backend
+│
+├── frontend/                  # Customer-facing e-commerce frontend (React)
+│   ├── public/                # Public assets (favicon, logos, etc.)
+│   ├── src/
+│   │   ├── assets/            # Images, logos, and other static assets
+│   │   ├── components/        # UI components (e.g., Navbar, ProductCard)
+│   │   ├── pages/             # Page components (Home, Products, Cart, Checkout)
+│   │   ├── services/          # API services (e.g., fetching products, user authentication)
+│   │   ├── context/           # Global state management (e.g., AuthContext, CartContext)
+│   │   ├── styles/            # Tailwind configuration and global styles
+│   │   ├── App.tsx            # Main React app component
+│   │   ├── index.tsx          # Frontend app entry point
+│   │   └── router.tsx         # Frontend page routing
+│   ├── tailwind.config.js     # Tailwind configuration
+│   ├── package.json           # Frontend-specific dependencies and scripts
+│   ├── tsconfig.json          # TypeScript configuration
+│   └── node_modules/          # Node.js dependencies for frontend
+│
+├── database/                  # Database migrations and seed data
+│   ├── migrations/            # SQL or ORM migrations for setting up the database schema
+│   ├── seeds/                 # Seed files for populating the database with initial data
+│
+├── design/                    # Figma designs, flowcharts, and wireframes
+│   └── allgoodshub-design.fig # Figma design file
+│
+├── node_modules/              # Root-level Node.js dependencies (optional for monorepo)
+├── .env                       # Global environment variables (e.g., API keys, DB credentials)
+├── .gitignore                 # Specifies files and directories to ignore in Git
+├── README.md                  # Project documentation and instructions
+├── package.json               # Main project dependencies (optional for monorepo setup)
+└── tsconfig.json              # TypeScript configuration (optional for monorepo)
