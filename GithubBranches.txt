@@ -1,8 +1,0 @@
-main – Production-ready code
-hotfix/* – Emergency fixes directly off the main branch
-
-dev – Integration of features for upcoming releases
-feature/* – Branches for individual feature development
-fix/* – Branches for bug fixes
-release/* – Pre-production branch for release candidates
-
